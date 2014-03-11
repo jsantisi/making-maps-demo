@@ -10,5 +10,5 @@ select
 	as label
 	
 into merged
-from population, tl_2010_17_county10
+from population, tl_2010_12_county10
 where id = geoid10;
